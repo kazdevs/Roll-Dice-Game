@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+  /* background: linear-gradient(to right, #3f5efb, #fc466b); */
+  background: linear-gradient(
+    90deg,
+    rgba(10, 30, 31, 1) 0%,
+    rgba(14, 42, 26, 1) 35%,
+    rgba(21, 31, 10, 1) 100%
+  );
+}
+.wrapper {
+  border: 10px solid green;
+  border-radius: 10px;
+  /* width: 100%; */
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.rolls-message span {
+  /* color: red; */
+  border: 2px solid salmon;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+h1 {
+  font-size: 3.5rem;
+  color: rgb(208, 214, 218);
+}
+.winner {
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  color: rgb(208, 214, 218);
+}
+.dice-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid goldenrod; */
+  width: 700px;
+}
+.user-area {
+  margin: 0 30px;
+}
+p {
+  font-size: 2.5rem;
+  color: rgb(208, 214, 218);
+}
+img {
+  width: 220px;
+}
+
+button {
+  margin: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: none;
+}
+button:hover {
+  color: white;
+  scale: 1.2;
+}
